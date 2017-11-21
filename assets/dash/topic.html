@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enron Email Dashboard</title>
+    <link href="static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="static/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="static/css/bootstrap-slider.css" rel="stylesheet">
+    <link href="static/css/nouislider.min.css" rel="stylesheet">
+    <link href="static/css/dc.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- Static navbar -->
+    <!--<nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="">Enron Email Dashboard</a>
+            </div>
+            <div id="navbar" class="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="topic.html">Topic</a></li>
+                    <li><a href="graph.html">Graph</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>-->
+    <div class="container" id="main-container">
+        <div class="content">
+
+            <div class="page-header">
+                <div class="row">
+                    <div class="col-xs-8"><h2>Email Topics</h2></div>
+                    <div class="col-xs-2" id="spinner"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12" id="dom_plot_docs_x_topic_x_selecteddate">
+                    <strong>Count of Emails per Day per Topic</strong>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12" id="dom_plot_docs_x_alldate">
+                    <p class="plot-text-control muted pull-left"><strong>Time-range selector</strong></p>
+                    <p class="filter plot-text-control muted pull-left" style="font: 10px sans-serif; margin-left: 5px;"></p>
+                    <a class="reset plot-text-control muted pull-right" href="javascript:plot_docs_x_alldate.filterAll();plot_docs_x_alldate.filter(date_range);dc.renderAll('plotgroup_a');" style="display: none;"> [set to default range]</a>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <br/>
+
+            <div class="row">
+                <div class="col-md-12"><h2>Topic</h2></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-8" id="dom_plot_docs_x_topic">
+                    <strong>Emails per Topic</strong>
+                    <a class="reset plot-text-control muted pull-right" href="javascript:plot_docs_x_topic.filterAll();dc.renderAll('plotgroup_a');" style="display: none;"> [reset]</a>
+                    <div class="clearfix"></div>
+                </div>
+
+
+                    <strong>Top Tokens in <span id="selected_topic"></span></strong>
+                <div class="col-md-4" id="dom_plot_topic_detail">
+                    <a class="reset plot-text-control muted pull-right" href="javascript:plot_topic_detail.filterAll();dc.renderAll('plotgroup_b');" style="display: none;"> [reset]</a>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-12"><h2>Participants</h2></div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-4" id="dom_plot_docs_x_frm">
+                    <strong>From</strong>
+                    <a class="reset plot-text-control muted pull-right" href="javascript:plot_docs_x_frm.filterAll();dc.renderAll('plotgroup_a');" style="display: none;"> [reset]</a>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="col-md-4" id="dom_plot_docs_x_to">
+                    <strong>To</strong>
+                    <a class="reset plot-text-control muted pull-right" href="javascript:plot_docs_x_to.filterAll();dc.renderAll('plotgroup_a');" style="display: none;"> [reset]</a>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <br/>
+
+
+            <div class="row">
+                <div class="col-md-12"><h2>Selected Documents</h2></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12" id="dom_label_count_selected"></div>
+            </div>
+
+            <br/>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <!--<a class="plot-text-control muted pull-right" href="javascript:$('table_subselected.dc-table-column._4').highlight(['delay','urgent','complaint'],{ wordsOnly: true });" style="display: none;">[highlight sentiment keywords]</a>-->
+                    <table class="table table-striped table-condensed table-responsive dc-data-table" id="dom_table_subselected">
+                        <thead>
+                            <tr class="header">
+                                <th>Email Date</th>
+                                <th>Email ID</th>
+                                <th>Topic ID</th>
+                                <th>Email From</th>
+                                <th>Email To</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="static/js/jquery-2.1.4.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/spin.min.js"></script>
+    <script src="static/js/crossfilter.min.js"></script>
+    <script src="static/js/d3.min.js"></script>
+    <script src="static/js/dc.min.js"></script>
+    <script src="static/js/colorbrewer.js"></script>
+    <script src="static/js/colorbrewer_ext.js"></script>
+    <script src="static/js/underscore.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/jquery-ui.min.js"></script>
+    <script src="static/js/respond.min.js"></script>
+    <script src="static/js/bootstrap-slider.min.js"></script>
+    <script src="static/js/nouislider.min.js"></script>
+    <script src="static/js/dashboard.js"></script>
+</body>
+</html>

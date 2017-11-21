@@ -1,0 +1,195 @@
+topic_id,token_order,token_value,token
+0,00,1.6670,advertising information
+0,01,0.9559,bayou
+0,02,0.0507,herbal
+0,03,0.0051,bye
+1,00,4.3513,pmto germany
+1,01,3.7439,br br
+1,02,2.7731,amto germany
+1,03,2.4159,messagefrom sent
+1,04,2.2278,messagefrom
+1,05,2.0722,group subject
+1,06,1.5460,sent amto
+1,07,1.5351,mazowita
+1,08,1.2277,sent pmto
+1,09,1.2004,addressed contain
+1,10,1.1621,amplease respond
+1,11,1.1621,amplease
+1,12,1.1065,thursday amto
+1,13,0.8837,sent thursday
+1,14,0.8294,thursday pmto
+1,15,0.5442,sent
+1,16,0.5411,review retransmission
+1,17,0.4394,zufferli johnsubject
+1,18,0.4362,garricksubject lone
+1,19,0.3743,johnsubject
+2,00,1.4248,px
+2,01,0.5204,dayahead
+3,00,4.2503,canaveral
+3,01,1.5185,storage inventory
+3,02,1.0010,active active
+3,03,0.9940,pancanadian
+3,04,0.4912,ut hsc
+3,05,0.4400,environmental specialist
+3,06,0.2708,fuer
+3,07,0.1386,capacity desk
+3,08,0.0739,injection withdrawal
+5,00,6.8304,img
+5,01,6.8162,td
+5,02,2.6007,ul li
+5,03,2.2968,serif
+5,04,2.1685,td img
+5,05,1.6031,br arial
+5,06,1.3518,td td
+5,07,1.1073,ul
+5,08,1.0931,helvetica serif
+5,09,1.0325,br table
+5,10,0.3812,fontfamily new
+5,11,0.1852,refrigerator
+5,12,0.1835,pizza hut
+5,13,0.1339,p arial
+6,00,5.0732,sitara
+6,01,2.2082,dth dth
+6,02,1.4158,pt
+6,03,1.4022,sonat
+6,04,1.3379,agent updated
+6,05,0.7494,deal sitara
+6,06,0.4766,blotter
+6,07,0.2860,thefirstofthemonth
+6,08,0.1685,contains volume
+7,00,0.9121,tetco
+7,01,0.1934,nomination cycle
+7,02,0.1847,dinari
+7,03,0.0762,ferc meeting
+8,00,1.4638,true tale
+8,01,1.2694,dogbert
+8,02,1.1968,dilbert
+8,03,1.0139,bouillion
+8,04,0.7086,cuckoo
+8,05,0.1584,cuckooed
+8,06,0.0586,firewood
+9,00,2.8746,pep
+9,01,1.2173,reviewer
+9,02,0.4082,tiger team
+9,03,0.3862,ge turbine
+9,04,0.1887,action item
+10,00,2.1452,inline
+10,01,1.5777,inline attachment
+10,02,1.2056,attachment follows
+10,03,0.5899,cnchris
+10,04,0.5144,exotica
+10,05,0.4715,durasoft java
+10,06,0.2892,toaster
+10,07,0.2454,lol
+10,08,0.1479,shoup
+10,09,0.0519,durasoft
+10,10,0.0283,publicaccess
+10,11,0.0283,busypriority
+10,12,0.0283,busyname
+11,00,2.8740,p classonormal
+11,01,2.8740,classonormal
+11,02,2.7665,pe
+11,03,2.7067,p p
+11,04,2.3494,nom deadline
+11,05,2.0127,enus
+11,06,1.8620,ldc nom
+11,07,1.6974,o p
+11,08,1.3327,deadline est
+11,09,1.1856,span
+11,10,1.1390,br
+11,11,0.8755,schedule capaci
+11,12,0.7360,newark
+11,13,0.5299,kwi user
+11,14,0.4000,capaci
+11,15,0.3725,djw
+11,16,0.3149,leadership circle
+11,17,0.3125,textindent
+11,18,0.3125,msolist
+11,19,0.1999,lookout
+12,00,1.9626,clickathome
+12,01,1.9609,travelocity
+12,02,1.5363,newsletter editor
+12,03,1.4881,replying tothis
+12,04,1.2000,enl
+12,05,1.1501,news live
+12,06,1.1286,related featured
+12,07,0.9963,world fusion
+12,08,0.9414,kalbach
+12,09,0.9403,editor mailto
+12,10,0.9204,write kalbach
+12,11,0.9204,write newsletter
+12,12,0.9004,world sent
+12,13,0.7809,world newsletter
+12,14,0.7749,print subscription
+12,15,0.7716,wincenty issue
+12,16,0.7595,unsubscribe network
+12,17,0.7509,technology snapshot
+12,18,0.7509,snapshot choice
+12,19,0.7509,got technology
+13,00,3.2435,right left
+13,01,2.3051,smyrna
+13,02,1.4123,beach
+13,03,0.7082,paks
+13,04,0.4010,preferred schedule
+13,05,0.2824,mccullers
+13,06,0.1873,sidewalk
+14,00,2.7456,dpc
+14,01,0.4844,mseb
+14,02,0.0402,abn amro
+15,00,2.4820,eim
+15,01,1.9554,g ect
+15,02,0.8079,energy risk
+15,03,0.5307,enron japan
+15,04,0.3707,new product
+16,00,1.9959,group sponsor
+16,01,1.1195,faculty
+16,02,0.9021,msn
+16,03,0.6551,graduate
+17,00,3.4782,enbridge
+17,01,3.0816,enbridge consumer
+17,02,2.0007,enerfax
+17,03,1.6813,gpcm
+17,04,0.7166,pacific andelectric
+17,05,0.3834,market forecasting
+17,06,0.1142,el energy
+17,07,0.0556,pgsmi
+18,00,8.1065,ect
+18,01,7.8243,ect ect
+18,02,6.4129,ect subject
+18,03,6.1260,enroncc subject
+18,04,5.7930,enroncc
+18,05,5.1784,j pm
+18,06,5.0035,ectcc
+18,07,4.7179,ectcc ect
+18,08,4.3442,enron enron
+18,09,3.8625,amto enroncc
+18,10,3.7390,forwarded j
+18,11,3.6857,enron subject
+18,12,3.6560,ectcc subject
+18,13,2.9217,pm ectcc
+18,14,2.5691,pm amto
+18,15,2.2679,ect stinson
+18,16,1.5626,pm pmto
+18,17,1.4652,pmto ectcc
+18,18,1.4449,facility agreement
+18,19,1.3430,j
+19,00,6.4923,market restriction
+19,01,4.0247,mailto mailto
+19,02,2.5723,recipient notified
+19,03,2.4434,lv cogen
+19,04,2.4051,blacklined
+19,05,2.3595,addressee authorized
+19,06,1.9880,legally privileged
+19,07,1.8922,notify immediately
+19,08,1.4046,ccampbell
+19,09,1.3276,dissemination
+19,10,1.2811,designated recipient
+19,11,1.0855,error notify
+19,12,1.0066,restriction market
+19,13,0.9856,clean copy
+19,14,0.8368,purchase option
+19,15,0.7591,addressee
+19,16,0.7392,legally exempt
+19,17,0.6884,recipient ensure
+19,18,0.6364,confidential information
+19,19,0.5444,authorized print

@@ -1,0 +1,44 @@
+#graph_plot {
+margin-left: 0px;
+  font: 10px sans-serif;
+  float: left;
+}
+.chord path {
+  fill-opacity: .6;
+  stroke: #000;
+  stroke-width: .5px;
+}
+
+#infotext {
+    font-family: monospace;
+	font-size: smaller;
+    background-color: #FFFF99;
+	}
+	
+.active {
+	border-color: #ccc;
+	border-style: solid;
+	border-width: 1px;
+	}
+
+/* TODO fixme */
+textpath {
+    font-size: small;
+}
+
+#centrality_slider1 .slider-selection {
+	background: #149bdf;
+}
+
+#centrality_slider2 .ui-widget-header{
+	background: #149bdf;
+}
+
+.table-borderless td,
+.table-borderless th {
+    border: 0;
+}
+
+.page-header{
+    margin-top:0px;
+}
