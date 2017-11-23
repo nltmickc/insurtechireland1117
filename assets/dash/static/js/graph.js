@@ -121,8 +121,8 @@ function tabulate(domtableobject, jsondata, colnames) {
 
 /* ----------------- general setup and initialise variables ----------------- */
 
-var w = 720,
-    h = 720,
+var w = 900,
+    h = 900,
     r0 = Math.min(w, h) * .41,
     r1 = r0 * 1.12;
 

@@ -88,7 +88,7 @@ d3.csv("static/data/m2_doctopic_2.csv", function (data) {
 
     // plot docs by topic
     plot_docs_x_topic
-        .width(600)
+        .width(1000)
         .height(500)
         .margins({top: 10, right: 10, bottom: 20, left: 30})
         .group(grp_topic_count)
@@ -123,7 +123,7 @@ d3.csv("static/data/m2_doctopic_2.csv", function (data) {
 
     // daterange selector for documents
     plot_docs_x_alldate
-        .width(1200)
+        .width(1600)
         .height(42)
         .margins({top: 0, right: 10, bottom: 20, left: 30})
         .group(grp_date_count)
@@ -173,7 +173,7 @@ d3.csv("static/data/m2_doctopic_2.csv", function (data) {
 
    // plot: count docs by topic by subselected daterange
     plot_docs_x_topic_x_selecteddate
-        .width(1200)
+        .width(1600)
         .height(400)
         .margins({top: 10, right: 10, bottom: 40, left: 30})
         .chart(function(c) {
@@ -209,7 +209,8 @@ d3.csv("static/data/m2_doctopic_2.csv", function (data) {
         .yAxis().ticks(5);
 
 
-    plot_docs_x_frm.width(180)
+    plot_docs_x_frm
+        .width(180)
         .height(180)
         .radius(80)
         .innerRadius(30)
@@ -259,7 +260,7 @@ d3.csv("static/data/m2_doctopic_2.csv", function (data) {
     // TODO consider using dynatable
     // http://stackoverflow.com/questions/21596616/dc-js-data-table-using-jquery-data-table-plugin
     table_subselected
-        .width(960)
+        .width(1600)
         .height(320)
         //.margins({top: 10, right: 20, bottom: 10, left: 20})
         .dimension(dim_date)
@@ -309,7 +310,7 @@ d3.csv("static/data/m2_doctopic_2.csv", function (data) {
 
         // plot topic details
         plot_topic_detail
-           .width(400)
+           .width(600)
            .height(500)
            .margins({top: 10, right: 10, bottom: 20, left: 40})
            .dimension(dim_topic_detail)
